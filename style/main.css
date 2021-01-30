@@ -10,7 +10,7 @@
 /*elementos base*/
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -53,16 +53,20 @@ header nav a:hover {
     align-items: flex-start;
 }
 
+.filme-principal .titulo {
+    color:rgb(190, 13, 13);
+    margin-top: 10%;
+    font-size: 60px;
+    font-family: fantasy, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
 .filme-principal .descricao {
+    color:#aaa;
     margin-bottom: 80px;
     margin-top: 2%;
 }
 
-.filme-principal .titulo {
-    margin-top: 15%;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .botao {
     background-color:  rgba(0, 0, 0, .50);
@@ -72,6 +76,7 @@ header nav a:hover {
     margin-right: 15px;
     font-size: 12px;
     border-radius: 5px;
+    text-decoration: none;
 
     cursor: pointer;
     transition: 1s ease all;
@@ -99,4 +104,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
